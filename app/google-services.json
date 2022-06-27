@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "250289843417",
+    "project_id": "siriofsociety",
+    "storage_bucket": "siriofsociety.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250289843417:android:91ef8850f7f4be39eee2c8",
+        "android_client_info": {
+          "package_name": "com.example.siriofsociety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250289843417-gvm2rgsi2ed66lpbastdfv20p5n12lv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkvk5ZBHO8qZYZuz1z13qyA2B_STELwrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250289843417-gvm2rgsi2ed66lpbastdfv20p5n12lv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

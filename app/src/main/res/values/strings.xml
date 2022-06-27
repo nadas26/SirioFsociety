@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SirioFsociety</string>
+
+    <string name="bottom_home_item"></string>
+    <string name="bottom_favori_item"></string>
+    <string name="bottom_search_item"></string>
+    <string name="bottom_cart_item"></string>
+    <string name="bottom_profile_item"></string>
+
+    <!-- Page D'accueil -->
+    <string name="decouvrir"> Sirio </string>
+    <string name="home_page_list_article_section"> Articles Populaire </string>
+    <string name="home_page_list_dernier_article"> Derniers Articles </string>
+
+    <!-- Page Des favoris -->
+    <string name="Favoris_page_title"> Mes Favoris </string>
+
+    <!-- Page Details Articles -->
+    <string name="details_articles_name"> Nom des articles </string>
+    <string name="details_articles_description">Description</string>
+    <string name="details_articles_informations">Informations</string>
+    <string name="details_articles_price">Price</string>
+    <string name="details_articles_ratings">Ratings</string>
+    <string name="details_ratings">4</string>
+
+
+    <!-- Articles  -->
+    <string name="item_article_name">Nom des articles</string>
+    <string name="item_article_description">Description des articles</string>
+    <string name="item_article_description_subtitle">Detail de la Description </string>
+    <string name="ratings">rating</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/ImageViewRounded10"
+    app:circularflow_defaultAngle="20">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        style="@style/ImageViewRounded10"
+        android:layout_width="match_parent"
+        android:layout_height="359dp"
+        android:adjustViewBounds="false"
+        android:background="@color/lightBlueGreen"
+        android:cropToPadding="false"
+        android:focusableInTouchMode="false"
+        android:scaleType="centerCrop"
+        android:theme="@style/ImageViewRounded10"
+        app:srcCompat="@drawable/deco_salon_dore_4_suspension" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="126dp"
+        android:layout_height="112dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/ic_logo" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        app:srcCompat="?android:attr/fastScrollTrackDrawable" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Sirio présent pour vous servir !!"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/BtnLoginPage"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/lightBlueGreen"
+            android:text="Login"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:cornerRadius="15sp"
+            app:iconTint="@color/darkBlueGreen" />
+
+        <Button
+            android:id="@+id/BtnRegisterButton"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="@color/lightBlueGreen"
+            android:text="Sign Up"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColorHint="@color/darkBlueGreen"
+            android:textStyle="bold"
+            app:cornerRadius="15sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/BtnRegisterButton"
+            android:layout_gravity="center_horizontal"
+            android:text="Or Sign In with" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="Confirm"
+                app:srcCompat="@drawable/common_google_signin_btn_icon_light" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
